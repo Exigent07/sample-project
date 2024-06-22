@@ -41,7 +41,7 @@ function App() {
         );
     } else {
         return (
-            <div className="App">
+            <div className="App" style={{"min-height": "100dvh"}}>
                 <Responsive />
                 <ToastContainer position="bottom-right" />
             </div>
