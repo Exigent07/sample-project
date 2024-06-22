@@ -32,7 +32,7 @@ function App() {
         }
     }, [windowWidth, fired]);
 
-    if (windowWidth >= 0) {
+    if (windowWidth >= 1920) {
         return (
             <div className="App">
                 <Home />
